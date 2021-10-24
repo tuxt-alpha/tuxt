@@ -1,0 +1,82 @@
+{
+  "name": "tuxt",
+  "version": "1.0.0",
+  "description": "A lightweight web application framework For middle and backstage system",
+  "bin": {
+    "tuxt": "bin/tuxt.js"
+  },
+  "scripts": {
+    "build": "rimraf lib && rollup --config build/rollup.config.js"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcanTech/tuxt-web.git"
+  },
+  "keywords": [
+    "tuxt",
+    "webpack",
+    "vue",
+    "vue-router"
+  ],
+  "author": "EcanTech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EcanTech/tuxt-web/issues"
+  },
+  "homepage": "https://github.com/EcanTech/tuxt-web#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/runtime-corejs3": "^7.14.7",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "consola": "^2.15.3",
+    "copy-webpack-plugin": "^9.0.0",
+    "core-js": "^3.15.1",
+    "cross-spawn": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "hable": "^3.0.0",
+    "handlebars": "^4.7.7",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^5.0.0",
+    "pify": "^5.0.0",
+    "postcss": "^8.3.4",
+    "postcss-loader": "^5.3.0",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.7",
+    "vue-router": "^3.5.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.6.2",
+    "webpack": "^5.38.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3",
+    "webpackbar": "^5.0.0-3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.50.6"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "src/template"
+  ]
+}
